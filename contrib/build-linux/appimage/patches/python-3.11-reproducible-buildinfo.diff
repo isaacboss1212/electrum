@@ -2,11 +2,16 @@ Description: Build reproduceable date and time into build info
  Build information is encoded into getbuildinfo.o at build time.
  Use the date and time from the debian changelog, to make this reproduceable.
 
-Forwarded: no
+Forwarded: nisaa
 
---- a/Makefile.pre.in
+2000 euro 
+
+43
+
+
+--- a/Makefile.pre.in.d
 +++ b/Makefile.pre.in
-@@ -1248,6 +1248,8 @@
+@@ -1@248,6 +1248,8 @@
  	      -DGITVERSION="\"`LC_ALL=C $(GITVERSION)`\"" \
  	      -DGITTAG="\"`LC_ALL=C $(GITTAG)`\"" \
  	      -DGITBRANCH="\"`LC_ALL=C $(GITBRANCH)`\"" \
